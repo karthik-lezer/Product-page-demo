@@ -1,2 +1,3 @@
-# product-page-demo
-It's a demo of product page.
+# product-page-demo (September 2020)
+
+Product description page. Here I have used bootstrap as a framework along with HTML/CSS. 
