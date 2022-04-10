@@ -1,0 +1,187 @@
+
+*{
+    margin: 0% 0% 0% 0%;
+    box-sizing: border-box;
+    font-family: var(--ff-se);
+}
+
+:root{
+
+    /* font family */
+    --ff-pr: 'Ubuntu', sans-serif;
+    --ff-se: 'Montserrat', sans-serif;
+
+    /* font-weights */
+    --fw-reg : 300;
+    --fw-bold : 900;
+
+    /* font-size */
+    --fs-h1: 3.5rem;
+    --fs-h2: 3rem;
+    --fs-h3: 1.8rem;
+    --fs-nav-logo: 2.6rem;
+    --fs-nav-links: 1.3rem;
+    --fs-body: 1.2rem;
+}
+
+/* media starts */
+
+@media (max-width:1020px){
+
+}
+
+/* media end */
+
+h1{
+    font-size: var(--fs-h1);
+    font-family: var(--ff-pr);
+}
+  
+h2{
+    font-size: var(--fs-h2);
+    font-family: var(--ff-pr);
+}
+  
+h3{
+    font-size: var(--fs-h3);
+    font-family: var(--ff-pr);
+}
+
+h4{
+    font-family: var(--ff-pr);
+}
+
+
+
+.main-heading{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.firstContainer{
+    display: flex;
+    margin-top: 1%;
+    font-family: var(--ff-se);
+}
+
+/* carousel */
+
+.itemDisplay{
+    width: 40%;
+    height: 30%;
+    margin: 0% 5% 1% 5%;
+
+}
+
+/* carousel */
+
+/* Producr Details */
+
+.information{
+    width: 60%;
+}
+
+.product-name{
+    font-family: var(--ff-pr);
+}
+
+.key-Points{
+    font-family: var(--ff-pr);
+}
+
+.cost-section{
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    text-align: center;
+}
+
+.cost-section h2{
+    color: rgb(0, 207, 0);
+    font-family: var(--ff-pr);
+}
+
+.cost-section .btn{
+    margin-left: 8%;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+}
+
+/* Producr Details */
+
+/* Share And Fav Button */
+
+.shareAndFav{
+    text-align: center;
+}
+
+.shareAndFav .btn{
+    width: 20%;
+    margin: 0 2% 0 2%;
+    text-align: center;
+    align-items: center;
+
+}
+
+/* Share And Fav Button */
+
+/* Related Product 
+
+.relatedProduct {
+    width: 100%;
+    background-color: #FFC2FF;
+    margin: 1% 0 0 0;
+}
+
+.product-list{
+    display: flex;
+}
+
+.product-grid{
+    margin: 1%;
+    padding: 1%;
+    width: 15%;
+    text-align: center;
+    background-color: red;
+}
+
+/*  Related Product */
+
+/* Coustomer review */
+
+.comment-1{
+    background-color: rgb(255, 218, 225);
+    width: 92%;
+    margin: 2% 4% 2% 4%;
+    border-radius: 0.8rem;
+    display: flex;
+}
+
+.comment-1:hover {
+    box-shadow: 0 0 20px rgb(170, 142, 162);
+    transition-duration: 0.6s;
+}
+
+.comment-pic{
+    text-align: center;
+    width: 10%;
+}
+
+.comment-pic-main{
+    width: 80%;
+    margin: auto;
+    padding: 20%;
+    border-radius: 50%;
+}
+
+.Comment-text{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-rating{
+    display: flex;
+}
